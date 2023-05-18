@@ -30,6 +30,7 @@ public class Stack {
     public boolean isEmpty() {
         return count == 0;
     }
+
     @Override
     public String toString() {
         var content = Arrays.copyOfRange(items, 0, count);
